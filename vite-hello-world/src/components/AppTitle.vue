@@ -1,10 +1,12 @@
 <template>
-  <h1>La mia prima app con Vite</h1>
+  <h1 class="gradient_text">La mia prima app con Vite</h1>
 </template>
 
 
 <style>
-h1 {
-  color: red;
+.gradient_text {
+  background-image: linear-gradient(to bottom right, rgba(110, 152, 255, 1), #BD34FF);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 </style>
